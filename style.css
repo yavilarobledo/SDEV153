@@ -1,4 +1,22 @@
-body {
-    color:magenta;
+
+body{
+    background-color:rgb(221, 111, 130);
+    color:white;
+    font-family: "Courier New", 'Courier', monospace;
+
+    border: 25px solid white;
+    padding: 60px;
+    margin: 60px;
+
+}
+p{
+    font-family: "Garamond", "Georgia", "Times New Roman", "Times", serif;
+    color:white;
     border: dotted;
+    display:inline;
+    text-align:center;
+}
+h1 {
+    text-align:center;
+    border-bottom: 5px solid brown;
 }
