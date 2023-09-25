@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 body{
     background-color:rgba(221, 111, 113, 0.76);
@@ -17,12 +17,12 @@ p{
     display:inline;
     text-align:center;
 }
+
 h1 {
     text-align:center;
     border-bottom: 5px solid brown;
-=======
+
 body {
     color:magenta;
     border: dotted;
->>>>>>> 489b147f7281b39aa38ecc38e15d03328842d0f4
 }
