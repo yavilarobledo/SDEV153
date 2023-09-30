@@ -1,28 +1,17 @@
-
-
-body{
-    background-color:rgba(221, 111, 113, 0.76);
-    color:white;
-    font-family: "Courier New", 'Courier', monospace;
-
-    border: 25px solid white;
-    padding: 60px;
-    margin: 60px;
-
-}
-p{
-    font-family: "Garamond", "Georgia", "Times New Roman", "Times", serif;
-    color:white;
-    border: dotted;
-    display:inline;
-    text-align:center;
+body::before {
+    display:block;
+    content: '';
+    height:60px;
 }
 
-h1 {
-    text-align:center;
-    border-bottom: 5px solid brown;
+#map{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+}
 
-body {
-    color:magenta;
-    border: dotted;
+@media(min-width: 768px) {
+    .news-input {
+        width:50%;
+    }
 }
